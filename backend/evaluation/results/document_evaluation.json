@@ -1,0 +1,53 @@
+{
+  "results": [
+    {
+      "format": "DOCX",
+      "file_name": "sample_test.docx",
+      "status": "PASS",
+      "char_count": 424,
+      "page_count": 2,
+      "latency_ms": 27.26,
+      "table_data_extracted": true
+    },
+    {
+      "format": "TXT",
+      "file_name": "sample_test.txt",
+      "status": "PASS",
+      "char_count": 288,
+      "latency_ms": 10.67
+    },
+    {
+      "format": "PDF",
+      "file_name": "sample_test.pdf",
+      "status": "PASS",
+      "char_count": 84,
+      "ocr_applied": false,
+      "latency_ms": 13.48
+    },
+    {
+      "test_case": "document_export",
+      "status": "PASS",
+      "txt_export": "export_1795364039_c10bcd67.txt",
+      "docx_export": "export_1795364039_5203e9ba.docx"
+    },
+    {
+      "test_case": "ocr_engine_status",
+      "status": "PARTIAL",
+      "tesseract_available": false,
+      "supported_languages": [],
+      "notes": "Tesseract binary check executed; when binary is absent on host, system gracefully falls back to native text extraction."
+    },
+    {
+      "test_case": "reject_unsupported_doc_ext",
+      "status": "PASS"
+    },
+    {
+      "test_case": "reject_oversized_doc",
+      "status": "PASS"
+    },
+    {
+      "test_case": "corrupted_docx_handling",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "results": [
+    {
+      "type": "speech_recognition",
+      "language": "en",
+      "ground_truth": "Welcome to IndicLingo AI multimodal platform.",
+      "transcript": "Welcome to IndicLingo AI Multimodal platform.",
+      "detected_language": "en",
+      "duration_seconds": 4.34,
+      "segment_count": 1,
+      "asr_latency_ms": 2393.13,
+      "wer": 0.17,
+      "status": "PASS",
+      "notes": "Verified timestamps and 1 segment(s)"
+    },
+    {
+      "type": "speech_recognition",
+      "language": "kn",
+      "ground_truth": "ಇಂಡಿಕ್‌ಲಿಂಗೋ ಎಐ ಧ್ವನಿ ಸಂಸ್ಕರಣಾ ವ್ಯವಸ್ಥೆಗೆ ಸ್ವಾಗತ.",
+      "transcript": "Indik Lingo i, i, bu manifold sam scarcity suagata",
+      "detected_language": "kn",
+      "duration_seconds": 4.2,
+      "segment_count": 1,
+      "asr_latency_ms": 3240.04,
+      "wer": 1.5,
+      "status": "PASS",
+      "notes": "Verified timestamps and 1 segment(s)"
+    },
+    {
+      "type": "speech_recognition",
+      "language": "hi",
+      "ground_truth": "इंडिक्लिंगो एआई बहुभाषी मंच में आपका स्वागत है।",
+      "transcript": "Indiclingo AI boobha shi munch me aab ka svaagat hai.",
+      "detected_language": "hi",
+      "duration_seconds": 4.73,
+      "segment_count": 1,
+      "asr_latency_ms": 618.18,
+      "wer": 1.25,
+      "status": "PASS",
+      "notes": "Verified timestamps and 1 segment(s)"
+    },
+    {
+      "type": "speech_recognition",
+      "language": "te",
+      "ground_truth": "ఇండిక్లింగో ఏఐ బహుభాషా వేదికకు స్వాగతం.",
+      "transcript": "Indiclingo AI ΜОUCKБА bruintell 💦🏻 SWUR Kinder",
+      "detected_language": "te",
+      "duration_seconds": 3.38,
+      "segment_count": 1,
+      "asr_latency_ms": 8823.81,
+      "wer": 1.4,
+      "status": "PASS",
+      "notes": "Verified timestamps and 1 segment(s)"
+    },
+    {
+      "type": "speech_recognition",
+      "language": "ta",
+      "ground_truth": "இண்டிக்லிங்கோ ஏஐ பன்மொழி தளத்திற்கு நல்வரவு.",
+      "transcript": "என்னுடையும் பான் முவிட்டால் திருக்கு நல்வறவு?",
+      "detected_language": "ta",
+      "duration_seconds": 3.58,
+      "segment_count": 1,
+      "asr_latency_ms": 822.5,
+      "wer": 1.0,
+      "status": "PASS",
+      "notes": "Verified timestamps and 1 segment(s)"
+    },
+    {
+      "type": "speech_recognition",
+      "language": "ml",
+      "ground_truth": "ഇൻഡിക്ലിംഗോ എഐ മൾട്ടിമോഡൽ പ്ലാറ്റ്‌ഫോമിലേക്ക് സ്വാഗതം.",
+      "transcript": "Indiclingo A multi-model platform lake is swagadam",
+      "detected_language": "ml",
+      "duration_seconds": 4.01,
+      "segment_count": 1,
+      "asr_latency_ms": 482.77,
+      "wer": 1.4,
+      "status": "PASS",
+      "notes": "Verified timestamps and 1 segment(s)"
+    },
+    {
+      "type": "edge_case",
+      "case": "empty_file_0_bytes",
+      "status": "PASS",
+      "notes": "Gracefully rejected: Audio processing failed: Audio processing failed: Failed to process audio record"
+    },
+    {
+      "type": "edge_case",
+      "case": "corrupted_audio",
+      "status": "PASS",
+      "notes": "Gracefully handled corrupted stream: Audio processing failed: Audio processing failed: Failed to process audio record"
+    },
+    {
+      "type": "edge_case",
+      "case": "unsupported_extension",
+      "status": "PASS",
+      "notes": "Successfully rejected invalid format: Document processing failed: Unsupported audio format '.xyz'. Allowed: .ogg, .web"
+    },
+    {
+      "type": "edge_case",
+      "case": "oversized_file_limit",
+      "status": "PASS",
+      "notes": "Successfully rejected >25MB file: Audio file (30.0 MB) exceeds maximum allowed 25 MB."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <radialGradient id="gradSunset" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F4EFE6" />
+      <stop offset="35%" stop-color="#B68B4B" />
+      <stop offset="70%" stop-color="#956E2F" />
+      <stop offset="100%" stop-color="#202221" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="orbitAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4EFE6" />
+      <stop offset="50%" stop-color="#B68B4B" />
+      <stop offset="100%" stop-color="#4D574E" />
+    </linearGradient>
+  </defs>
+  <!-- Background Glow -->
+  <circle cx="50" cy="50" r="46" fill="url(#gradSunset)" opacity="0.45"/>
+  <!-- Orbiting Language Rings -->
+  <ellipse cx="50" cy="50" rx="42" ry="18" stroke="url(#orbitAmber)" stroke-width="1.8" stroke-dasharray="3 4" transform="rotate(-25 50 50)"/>
+  <ellipse cx="50" cy="50" rx="42" ry="18" stroke="url(#orbitAmber)" stroke-width="1.8" stroke-dasharray="2 5" transform="rotate(35 50 50)"/>
+  <circle cx="50" cy="50" r="16" fill="#202221" stroke="#B68B4B" stroke-width="2"/>
+  <!-- Center Indic-AI Nexus Glyph -->
+  <path d="M44 38 L44 62 M44 50 L56 50 M56 38 L56 62" stroke="#F4EFE6" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="50" cy="50" r="2.5" fill="#B68B4B" />
+  <circle cx="68" cy="36" r="2" fill="#F4EFE6" />
+  <circle cx="28" cy="62" r="1.5" fill="#956E2F" />
+</svg>

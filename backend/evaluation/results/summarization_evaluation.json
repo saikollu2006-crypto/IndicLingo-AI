@@ -1,0 +1,61 @@
+{
+  "results": [
+    {
+      "test_case": "length_short",
+      "format": "paragraph",
+      "original_chars": 1426,
+      "summary_chars": 468,
+      "compression_ratio": 67.2,
+      "latency_ms": 0.47,
+      "status": "PASS",
+      "summary_preview": "By combining neural machine translation with state-of-the-art speech recognition, the system allows users to speak, writ"
+    },
+    {
+      "test_case": "length_medium",
+      "format": "paragraph",
+      "original_chars": 1426,
+      "summary_chars": 616,
+      "compression_ratio": 56.8,
+      "latency_ms": 0.22,
+      "status": "PASS",
+      "summary_preview": "By combining neural machine translation with state-of-the-art speech recognition, the system allows users to speak, writ"
+    },
+    {
+      "test_case": "length_detailed",
+      "format": "paragraph",
+      "original_chars": 1426,
+      "summary_chars": 1015,
+      "compression_ratio": 28.8,
+      "latency_ms": 0.23,
+      "status": "PASS",
+      "summary_preview": "Artificial intelligence is rapidly transforming global communication, business operations, and academic research. In mul"
+    },
+    {
+      "test_case": "format_bullets",
+      "format": "bullets",
+      "bullet_count": 4,
+      "status": "PASS",
+      "summary_preview": "• By combining neural machine translation with state-of-the-art speech recognition, the system allows users to speak, wr"
+    },
+    {
+      "test_case": "repeated_sentences_deduplication",
+      "status": "PARTIAL",
+      "notes": "Extracted 4 sentences, all unique."
+    },
+    {
+      "test_case": "empty_input",
+      "status": "PASS",
+      "notes": "Handled empty input safely without exception"
+    },
+    {
+      "test_case": "short_input_passthrough",
+      "status": "PASS",
+      "notes": "Passed through short single-sentence text without mutilation"
+    },
+    {
+      "test_case": "cross_lingual_en_to_kn",
+      "status": "PASS",
+      "summary_preview": "ನ್ಯೂರಲ್ ಯಂತ್ರ ಅನುವಾದ ಮತ್ತು ಅತ್ಯಾಧುನಿಕ ಭಾಷಾ ಗುರುತಿಸುವಿಕೆಯನ್ನು ಸಂಯೋಜಿಸುವ ಮೂಲಕ, ಬಳಕೆದಾರರು ತಮ್ಮ ಮಾತೃಭಾಷೆಯಲ್ಲಿ ದಾಖಲೆಗಳನ್ನು ಮಾ"
+    }
+  ]
+}
